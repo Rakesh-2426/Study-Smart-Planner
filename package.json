@@ -1,0 +1,14 @@
+{
+  "name": "study-planner-root",
+  "version": "1.0.0",
+  "description": "Root wrapper for nested study-planner-1",
+  "scripts": {
+    "dev": "cd study-planner-1 && npm run dev",
+    "build": "cd study-planner-1 && npm run build",
+    "lint": "cd study-planner-1 && npm run lint",
+    "preview": "cd study-planner-1 && npm run preview"
+  },
+  "workspaces": [
+    "study-planner-1"
+  ]
+}
